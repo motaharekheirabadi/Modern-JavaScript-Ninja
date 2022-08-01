@@ -85,10 +85,19 @@ let likes = 10;
 // likes += 10;
 // likes -= 5
 // likes *= 2
-console.log(likes);
+// console.log(likes);
 
 // !NaN = not a number
-console.log(5 / 'hello');
+// console.log(5 / 'hello');
+
+const title = 'Best reads of 2019';
+const author = 'Mario';
+const like = 30;
+
+// concatanation way
+let result = ' The blog called ' + title + 'by' + author + 'has' +likes + 'like' 
+
+
 
 
 
