@@ -95,8 +95,37 @@ const author = 'Mario';
 const like = 30;
 
 // concatanation way
-let result = ' The blog called ' + title + 'by' + author + 'has' +likes + 'like' 
+// let   result =  + title + ' by ' + author + ' has ' + likes +  ' like' ;
+// console.log(result);
 
+// template string way 
+ 
+let result2 = `The blog called ${title} by ${author} has LIKES likes `;
+console.log(result2);
+
+
+// creating html templates
+let html = `
+<h2>${title}</h2>`;
+
+// console.log(html);
+
+//////////////////////////////////
+let ninjas =['shaun' ,'ryu' , 'chun-li'];
+
+// ninjas[1]= 'ken';
+// console.log(ninjas[1]);
+
+// let ages = [20,25,30,35];
+// console.log(ages[3]);
+// console.log(ages.length);
+
+
+// let moti = ninjas.indexOf('ryu');
+// let moti = ninjas.concat(['ken','mmd'])
+let moti = ninjas.push('ken');
+ ninjas.pop();
+console.log(ninjas);
 
 
 
